@@ -2,6 +2,9 @@
 Q. what is NgZone
 Q. what is server side rendering
 Q. what is advantage of arrow function
+A. object which contains function, class which contains function, then dont use arrow function because
+   there arrow function point to window object. function inside function can be used arrow function,
+   there it points to parent functions object.
 Q. what is disadvantage of angular 
 Q. why bootstrap does have 12 grid
 Q. what is web sockets 
@@ -9,10 +12,10 @@ Q. what is html dom api
 Q. what is new in angular 16 - reactive property signal (check click event and update),jest unit 
 Q. what is some method
 A. const ages = [3, 10, 18, 20];
-						ages.some(checkAdult);
-						function checkAdult(age) {
-						  return age > 18;
-						}
+	 ages.some(checkAdult);
+	 function checkAdult(age) {
+	  return age > 18;
+	 }
 Q. what is difference between find and filter operator in rxjs
 Q. what is pure and impure pipe
 Q. what is diffrence between ng-template and ng-container

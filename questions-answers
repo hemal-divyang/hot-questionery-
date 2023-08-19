@@ -1,0 +1,65 @@
+//TOPICS TO READ
+Q. what is NgZone
+Q. what is server side rendering
+Q. what is advantage of arrow function
+Q. what is disadvantage of angular 
+Q. why bootstrap does have 12 grid
+Q. what is web sockets 
+Q. what is html dom api
+Q. what is new in angular 16 - reactive property signal (check click event and update),jest unit 
+Q. what is some method
+A. const ages = [3, 10, 18, 20];
+						ages.some(checkAdult);
+						function checkAdult(age) {
+						  return age > 18;
+						}
+Q. what is difference between find and filter operator in rxjs
+Q. what is pure and impure pipe
+Q. what is diffrence between ng-template and ng-container
+Q. what is switchMap
+Q. what id difference between observable and subject - 
+
+
+Q. what is AOT compilation - runs bulding time
+Q. what is JIT compilation - runs during compilation time
+Q. The differences between asynchronous and synchronous 
+A. Javascript is the synchronous single-threaded language but with the help of event-loop and promises, JavaScript is used to do asynchronous programming.
+Q. What are Router Events?
+Q. how can we decide to create a module of component
+Q. what is the use of ng-container
+
+* coding Q
+Q.  add 'a' after each letter of string ex. Hemal
+Q.  make camel case the given string 'Full stack developer'
+Q. create loop of numbers = [1,2,3,4,5,6,7,8,9,10]
+Q. print event number without using javascript in angular 
+A. <div *ngFor="let number of numbers">
+  <ul *ngIf="numbes%2=0">
+  <li>2</li>
+  <li>4</li>
+  <li>6</li>
+  </ul>
+  </div>
+
+
+
+
+what is map 
+person = [
+{name:'hemal',sal:2000},
+{name:'ved',sal:1000}
+]
+
+this.newPerson  = person.map((val)=>{
+return 'welcome ' + val.name
+})
+newPerson =
+{name:'welcome hemal'},
+{name:'ved'}
+
+*ngFor='let p of newPerson"
+{{p.name}}
+welcome hemal
+welcome ved
+
+

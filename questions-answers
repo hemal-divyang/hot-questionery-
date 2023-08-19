@@ -17,14 +17,21 @@ A. const ages = [3, 10, 18, 20];
 	  return age > 18;
 	 }
 Q. what is difference between find and filter operator in rxjs
+A. filter() returns an array containing the element that satisfies the condition,
+   but find() returns the element itself that satisfies the condition
 Q. what is pure and impure pipe
+A. Pure pipes are the pipes which are executed only when a changes to the input value is detected.
+   but impure pipe executes everytime irrespective of data has changed or not.
 Q. what is diffrence between ng-template and ng-container
 Q. what is switchMap
 Q. what id difference between observable and subject - 
 
 
 Q. what is AOT compilation - runs bulding time
-Q. what is JIT compilation - runs during compilation time
+A. compiler converts your Angular HTML and TypeScript code into efficient JavaScript code
+   during the build phase before the browser downloads and runs that code
+Q. what is JIT compilation - runs compilation time
+A. Compiles your application in the browser at runtime
 Q. The differences between asynchronous and synchronous 
 A. Javascript is the synchronous single-threaded language but with the help of event-loop and promises, JavaScript is used to do asynchronous programming.
 Q. What are Router Events?
